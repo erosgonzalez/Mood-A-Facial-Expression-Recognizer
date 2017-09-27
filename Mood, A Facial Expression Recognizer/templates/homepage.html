@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<!-- html for the main site to submit picture -->
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='home.css')}}">
+</head>
+
+<body>
+	<title> Mood: Facial Recognition </title>
+	<h1><br> Welcome to Mood, a facial expression recognizer</h1>
+
+	<p> Upon hitting upload you will be asked to upload an image.<br>
+	    Based on your image, a youtube video matching the mood of your photo, <br>
+	    analyzed via face recognition, will be displayed. </p>
+
+	<p> 1.Smile - Happy Music Search<br>2.Neutral - Neutral Music Search<br>
+	    3.Random Face (Other Expressions) - Alternative Music Search<br>
+	    4.No Face Detected - Nujabes (Chill Pop) music search</p>
+
+	<p> Enjoy </p>
+	
+<ul>
+	<div style="text-align: center;">
+		<form action= "{{url_for('results')}}" method="POST">
+			<input type=submit name="mood" value="Upload"/>
+		</form>
+	</div>
+</ul>
+</body>
+</html

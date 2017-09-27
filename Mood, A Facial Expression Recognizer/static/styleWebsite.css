@@ -1,0 +1,15 @@
+body {
+	text-align: center;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/31/7b/e5/317be532e429c913ee71095ed28e4118.jpg");
+	background-size: 100% 100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1 {
+	color: black;
+	text_align: center;
+}
+ul {
+	color:white;
+}
